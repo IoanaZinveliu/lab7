@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html>
+<head>
+<title>Agenda studenti</title>
+
+
+<link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<h1 id="titluCat">Informatica Aplicata
+<br>
+anul universitar 2020-2021</h1>
+
+
+<h2>Catalogul colegilor</h2>
+ <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="img_la.jpg" style="width:100%">
+  <img class="mySlides" src="img_ny.jpg" style="width:100%">
+  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+ <div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div class="mySlides w3-display-container w3-center">
+    <img src="poza.jpg" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<div class="linkPag"><a href="file:///C:/Users/ioana/Desktop/New%20folder%20(3)/zinveliuIoana.html">Zinveliu Ioana</a></div>
+    </div>
+  </div>
+   
+  <div class="mySlides w3-display-container w3-center">
+    <img src="pozac.jfif" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+	<div class="linkPag"><a href="">Zudor Crisztina</a></div>
+    </div>
+  </div>
+  
+  
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Rebeca.jpg" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<div class="linkPag"><a href="file:///C:/Users/ioana/Desktop/New%20folder%20(3)/rusrebeca.html">Rebeca Rus</a></div>
+    </div>
+  </div>
+  
+  
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="popadragos.jpg" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<div class="linkPag"><a href="file:///C:/Users/ioana/Desktop/New%20folder%20(3)/popadragos.html">Dragos Popa</a></div>
+    </div>
+  </div>
+    
+
+
+
+
+
+
+
+
+
+
+<li><a class="linkCat" href="file:///C:/Users/ioana/Desktop/catalog/zinveliuIoana1.html">Zinveliu Ioana</a></li>
+<li><a class= "linkCat" href="file:///C:/Users/ioana/Desktop/catalog/zudorCristina.html"> Zudor Crisztina</a></li>
+<li><a class= "linkCat"href="file:///C:/Users/ioana/Desktop/catalog/rusrebeca.html">Rus Rebeca</a></li>
+<li><a class= "linkCat" href="file:///C:/Users/ioana/Desktop/catalog/popadragos.html">Popa Dragos</a></li>
+
+
+
+</body>
+</html>
